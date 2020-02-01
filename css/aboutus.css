@@ -1,16 +1,16 @@
 .jumbotron{
-    background-color: #870d4c;
+    background-color: #25a59a;
     color: whitesmoke;
     padding: 70px;
     margin: 50px auto;
 }
 
 .navbar-dark{
-    background-color:#550024;
+    background-color: #00756c;
 }
 
 .footer{
-    background-color: #bb4878;
+    background-color: #63d7cb;
     margin: 0px auto;
     padding: 20px 0px;
 }
@@ -27,8 +27,4 @@ body{
 a{
     color: #140088;
     
-}
-
-.badge-{
-    margin: 0px, 10px;
 }
