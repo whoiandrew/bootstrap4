@@ -1,0 +1,71 @@
+$lt-gray: #ddd;
+$background-dark: #00756c;
+$background-light:#25a59a;
+$background-pale: #63d7cb;
+
+$carousel-item-height: 300px;
+
+@mixin zero-margin($pad-up-dn, $pad-l-r){
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-l-r;
+
+}
+
+.jumbotron{
+    background-color: $background-light;
+    color: whitesmoke;
+    padding: 70px;
+    margin: 50px auto;
+}
+
+.navbar-dark{
+    background-color: $background-dark;
+}
+
+.footer{
+    background-color: $background-light;
+    @include zero-margin(0px, 20px);
+}
+
+body{
+    background-color: whitesmoke ;
+    z-index: 0;
+}
+
+.row{
+    margin: 50px 0px;
+}
+
+a{
+    color: #140088;
+    
+}
+
+.tab-content{
+    border-left: 1px solid $lt-gray;
+    border-right: 1px solid $lt-gray;
+    border-bottom: 1px solid $lt-gray;
+    padding: 10px;
+}
+
+.carousel{
+    background: $background-dark;
+}
+
+.carousel-item{
+    height: 300px;
+}
+
+.carousel-item img{
+    position: absolute;
+    top:0;
+    left: 0;
+    min-height: 300px;
+}
+
+#carouselButton{
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
